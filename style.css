@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-origin: border-box;
+}
+body {
+    background-color: #DE6226;
+    font-family: sans-serif;
+    transition: all 0.5s ease;
+}
+
+header {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.intro-text h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.intro-text p {
+    font-size: 22px;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.page2 {
+    text-align: center;
+    width: 70%;
+}
+.page2 h2 {
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+section img {
+    width: 90%;
+    height: 70%;
+    object-fit: cover;
+}
+
+.bg-active {
+    background-color: white;
+}
